@@ -1,0 +1,266 @@
+*
+  {
+		margin : 0px;
+		padding : 0px;
+			
+	}
+	
+	body 
+	{
+		background-color : black;
+		color : white;
+	}
+	
+	
+
+	
+div.navbar
+ {
+	
+	 height : 17vh;
+ }	
+ 
+nav
+ {
+	 
+	 height : 50px;
+	 background-color : black;
+	 position : fixed;
+	 width : 100%;
+
+ }
+ 
+
+	
+div.logo
+	{
+		float : left;
+		margin-left : 30px;
+		padding-top : 4px;
+		
+	}
+	
+div.logotext
+	{
+		float : left;
+		margin-left : 55px;
+		padding-top : 5px;
+		font-size : 35px;
+		font-family : Bradley Hand ITC;
+		font-weight : bold;
+		
+	}
+
+img.logo
+	{		
+		width : 40px;	
+		position : fixed;
+	}	
+	
+div.contact
+	{
+		float : right;
+		margin-right : 80px;
+    padding-top : 5px;
+	}
+
+img.contact
+	{
+		
+	  width : 40px;
+		position : fixed;
+	}	
+
+div.menus
+	{	
+		margin-left : 500px;
+		text-align : center;
+	  padding-top : 15px;
+		position : fixed;
+		color : white;
+	}
+	
+	
+
+nav ul li
+	{
+		display : inline-block;
+		list-style : none;
+		margin-left : 60px;
+		position : relative;
+		color : white;
+		font-family : Calibri;
+		font-size : 20px;
+		
+	}	
+
+nav ul li::after
+	{
+		content : '';
+		height : 3px;
+		width : 0;
+		background :white;
+		position : absolute;
+		left : 0;
+		bottom : -4px;
+		transition : 0.5s;
+		border-radius : 10px;	
+	
+		
+	}
+
+nav ul li:hover:after
+	{
+		
+		width : 100%;
+		
+	}	
+	
+nav ul li :hover
+	{
+		
+		font-size : 21px;
+		color : violet;
+		
+	}	
+	
+nav ul li a
+	{
+		text-decoration : none;
+		color : white;
+	}		
+	
+div.aboutus h1
+	{
+		font-family : calibri;
+		margin-left : 125px;
+		margin-right : 100px;
+		color : Gold;
+	}	
+
+
+div.aboutcontent p
+	{
+		font-family : calibri;
+		font-size : 20px;
+		margin-left : 125px;
+		margin-right : 100px;
+	}		
+	
+div.addresssection h2
+	{
+		font-family : calibri;
+		margin-left : 125px;
+		margin-right : 100px;
+		color : Gold;
+	}
+	
+div.addresssection p
+	{
+		font-family : calibri;
+		font-size : 20px;
+		margin-left : 125px;
+		margin-right : 100px;
+	}	
+
+div.contactsection h2
+	{
+		font-family : calibri;
+		margin-left : 125px;
+		margin-right : 100px;
+		color : Gold;
+	}	
+	
+div.contactsection p
+	{
+		font-family : calibri;
+		font-size : 20px;
+		margin-left : 125px;
+		margin-right : 100px;
+	}	
+
+hr
+	{
+		margin-left : 100px;
+		margin-right : 100px;
+	}	
+	
+div.imgdk img
+	{
+	  float : left;
+		width : 15%;
+	
+	}
+	
+div.DK
+	{
+		width : 80%;
+		height : 33vh;
+		margin-left : 125px;
+		margin-right : 100px;
+		margin-top : 7vh;
+	}
+	
+div.dkinfo
+	{
+	  float : left;
+		font-family : courier new;
+		width : 70%;
+		height : 25vh;
+		margin-left : 50px;
+	
+		
+	}
+	
+div.dkinfo p
+	{
+	  font-size : 22px;
+		font-family : calibri;
+	}
+
+div.PC
+	{
+		width : 80%;
+		height : 33vh;
+		margin-left : 125px;
+		margin-right : 100px;
+	}	
+	
+div.imgpc img
+	{
+	  float : left;
+		width : 15%;
+	}	
+
+div.pcinfo
+	{
+	  float : left;
+		font-family : courier new;
+		width : 70%;
+	  margin-left : 50px;
+		height : 25vh;
+
+	}	
+	
+div.pcinfo p
+	{
+	  font-size : 22px;
+		font-family : calibri;
+	}	
+	
+div.bkt .btn
+	{
+		
+		float : right;
+		background : linear-gradient( 45deg, orange, ivory ) ;
+		border-radius : 20px;
+		padding : 10px 20px;
+		text-decoration : none;
+		color : black;
+		font-weight : bold;
+		box-shadow : 3px 8px 22px rgba(94, 28, 68, 0.15 );
+		margin : 30px;
+		
+		
+		
+	}	

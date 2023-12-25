@@ -1,0 +1,681 @@
+*
+  {
+		margin : 0px;
+		padding : 0px;
+			
+	}
+	
+	body 
+	{
+		background-color : black;
+		color : white;
+	}
+	
+
+	
+div.navbar
+ {
+	 height : 17vh;
+ }	
+ 
+nav
+ {
+	 
+	 height : 50px;
+	 background-color : black;
+	 position : fixed;
+	 width : 100%;
+
+ }
+ 
+
+	
+div.logo
+	{
+		float : left;
+		margin-left : 30px;
+		padding-top : 4px;
+		
+	}
+	
+div.logotext
+	{
+		float : left;
+		margin-left : 55px;
+		padding-top : 5px;
+		font-size : 35px;
+		font-family : Bradley Hand ITC;
+		font-weight : bold;
+		
+	}
+
+img.logo
+	{		
+		width : 40px;	
+		position : fixed;
+	}	
+	
+div.contact
+	{
+		float : right;
+		margin-right : 80px;
+    padding-top : 5px;
+	}
+
+img.contact
+	{
+		
+	  width : 40px;
+		position : fixed;
+	}	
+
+div.menus
+	{	
+		margin-left : 500px;
+		text-align : center;
+	  padding-top : 15px;
+		position : fixed;
+		color : white;
+	}
+	
+	
+
+nav ul li
+	{
+		display : inline-block;
+		list-style : none;
+		margin-left : 60px;
+		position : relative;
+		color : white;
+		font-family : Calibri;
+		font-size : 20px;
+		
+	}	
+
+nav ul li::after
+	{
+		content : '';
+		height : 3px;
+		width : 0;
+		background :white;
+		position : absolute;
+		left : 0;
+		bottom : -4px;
+		transition : 0.5s;
+		border-radius : 10px;
+		
+	}
+
+nav ul li:hover:after
+	{
+		
+		width : 100%;
+		
+	}	
+	
+nav ul li :hover
+	{
+		
+		font-size : 21px;
+		color : violet;
+		
+	}	
+	
+nav ul li a
+	{
+		text-decoration : none;
+		color : white;
+	}		
+	
+
+	
+div.bkt .btn
+	{
+		
+		float : right;
+		background : linear-gradient( 45deg, orange, ivory ) ;
+		border-radius : 20px;
+		padding : 10px 20px;
+		text-decoration : none;
+		color : black;
+		font-weight : bold;
+		box-shadow : 3px 8px 22px rgba(94, 28, 68, 0.15 );
+		margin-bottom : 30px;
+		margin-right : 30px;
+		margin-top : -30px;
+	}	
+	
+	
+
+div.banner img
+	{
+		margin-top : -10vh;
+		margin-bottom : 10vh;
+		width : 100%;
+		
+	}	
+	
+div.newsongs
+	{
+		height : 45vh;
+	}
+	
+h1.NS
+	{
+		font-family : corbel;
+		font-size : 40px;
+		font-weight : bold;
+		margin-left : 50px;
+		margin-top : 20px;
+		margin-bottom : 20px;
+	}
+
+
+div.lst
+	{
+		float : left;		
+		width : 230px;
+    margin-left : 75px;
+	}
+	
+div.lst img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+	}		
+
+	
+div.peach
+	{
+		float : left;
+		width : 230px;
+   
+	}
+	
+div.peach img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+	}	
+	
+	
+div.stay
+	{
+		float : left;
+		width : 230px;
+		
+   
+	}
+	
+div.stay img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+	}	
+	
+div.jal
+	{
+		float : left;		
+		width : 230px;
+    
+	}
+	
+div.jal img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+	}		
+	
+	
+		
+div.easy
+	{
+		float : left;		
+		width : 230px;
+   
+	}
+	
+div.easy img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+	}	
+
+div.shiv
+	{
+		float : left;		
+		width : 230px;
+   
+	}
+	
+div.shiv img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+	}		
+
+		
+	
+div.hits
+	{
+		height : 45vh;
+  
+	}
+	
+h1.HTS
+	{
+		font-family : corbel;
+		font-size : 40px;
+		font-weight : bold;
+		margin-left : 50px;
+		margin-top : 10px;
+		margin-bottom : 20px;
+	}
+	
+div.PB
+	{
+		float : left;
+		margin-left : 75px;
+		width : 230px;
+		 	
+	}
+
+div.PB img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+		
+		
+	}		
+	
+div.bel
+	{
+		float : left;
+		width : 230px;
+   
+	}
+	
+div.bel img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+	}	
+	
+	
+div.run
+	{
+		float : left;
+		width : 230px;
+		
+   
+	}
+	
+div.run img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+	}	
+	
+	
+div.see
+	{
+		float : left;		
+		width : 230px;
+   
+	}
+	
+div.see img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+	}		
+	
+div.lovely
+	{
+		float : left;		
+		width : 230px;
+   
+	}
+	
+div.lovely img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+	}		
+
+div.shape
+	{
+		float : left;		
+		width : 230px;
+  
+	}
+	
+div.shape img
+	{
+		border-radius : 20px;
+		width : 200px;
+		height : 200px;
+	}		
+
+		
+	
+
+div.player
+	{ 
+		margin-top : 2vh;
+	  height : 45vh;
+		
+	}	
+
+	
+
+div.plbg
+	{ 
+		margin-left : 35px;
+		margin-right : 50px;
+		border-radius : 20px;
+		margin-top : 1vh;
+	  
+		height : 38.8vh;
+		background : linear-gradient( 45deg, black, DarkMagenta, black ) ;
+		box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+	}	
+	
+div.plbghits
+	{ 
+		margin-left : 35px;
+		margin-right : 50px;
+		border-radius : 20px;
+		margin-top : 1vh;
+
+		height : 38.8vh;
+		background : linear-gradient( 45deg, black, green, black ) ;
+		box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+	}		
+	
+div.songimg
+	{
+		height : 32vh;
+		width : 400px;
+		margin-left : 20px;
+		justify-content : center;
+		margin-top : 2.5vh;
+		border-radius : 30px;
+		float : left;
+		
+	}
+	
+img.songimg
+	{
+		width : 400px;
+		height : 240px;
+		border-radius : 30px;
+		
+		
+	}	
+	
+div.credits
+	{
+	
+		height : 33vh;
+		width : 400px;
+		margin-right : 25px;
+		margin-top : 3vh;
+		border-radius : 30px;
+		float : right;
+			
+	}
+	
+p.sng
+	{
+		color : Ivory;
+		text-align : center;
+		font-size : 32px;
+		font-family : comic sans ms;
+		margin-top : 5vh;
+		
+	}
+
+p.singer
+	{
+		color : white;
+		text-align : center;
+		font-size : 26px;
+		font-family : ink free;
+		font-weight : bold;
+		margin-top : 2vh;
+	}	
+
+	
+	
+div.control
+	{
+		
+		height : 38vh;
+		width : 510px;
+		margin-left : 70px;
+		
+		
+		float : left;
+	}	
+	
+
+button.btn 
+	{
+		
+		border: none;
+		
+		padding: 20px;
+		
+		text-decoration: none;
+		display: inline-block;
+		margin-top : 5vh;
+		margin-left : 73px;
+		cursor: pointer;
+		border-radius : 50%;
+		
+		box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+	}	
+	
+button.btn:hover
+{
+	background: #ffb300;
+}
+	
+button.prev
+		{
+			background-color: #707070;
+		}
+		
+button.play
+		{
+			background-color: #ffb300;
+		}
+
+button.fwd
+		{
+			background-color: #707070;
+		}		
+	
+	
+img.prev 
+	{
+		height : 4vh;	
+		
+	}	
+	
+
+	
+	
+img.play 
+	{
+		height : 4vh;	
+		margin-left : 5px;
+		
+	}	
+	
+img.pause 
+	{
+		height : 4vh;	
+		margin-left : 3px;
+		padding-right : 2px;
+		
+	}	
+
+img.play2 
+	{
+		height : 4vh;	
+		margin-left : 5px;
+		
+	}	
+	
+img.pause2 
+	{
+		height : 4vh;	
+		margin-left : 3px;
+		padding-right : 2px;
+		
+	}		
+
+
+img.fwd
+	{
+		height : 4vh;	
+		
+	}	
+	
+div.volume
+	{
+		width : 100%;
+		height : 6vh;
+		
+		margin-left : 6px;
+		margin-top : 5vh;
+	}	
+	
+div.volume p
+	{
+		float : left;
+		width : 8%;
+		height : 4.8vh;
+		font-size : 20px;
+		font-family : calibri;
+		text-align : center;
+		padding-top : 6px;
+		margin-right : 8px;
+		
+		border-radius : 40%;	
+		background-color : #ffb300;
+		box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+	}	
+	
+div.volimg
+	{
+		float : left;
+	}	
+	
+img.sound 
+	{
+		height : 40px;	
+	}	
+		
+	
+div.volbar
+	{
+		float : left;
+		margin-left : 12px;
+		width : 76%;
+		margin-top : 2vh;
+		
+	}	
+	
+input[type="range"]
+	{
+	
+		width: 100%;
+		outline: none;
+		height: 10px;
+		overflow: hidden;
+		border-radius: 10px;
+	
+	}	
+
+input[type="range"]::-webkit-slider-thumb 
+	{
+		box-shadow: -400px 0 0 400px #ffb300;
+	}
+	
+div.duration
+	{
+		width : 98%;
+		height : 5vh;
+		margin-top : 4vh;
+
+	}	
+	
+
+div.autonxt
+	{
+		float : left;
+		margin-left : 5px;
+		margin-top : -10px;
+		
+	}
+
+button.btnat
+		{
+			border: none;
+			text-decoration: none;			
+			cursor: pointer;
+			border-radius : 20%;	
+			box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+		}	
+
+button.auto
+		{
+			background-color: #707070;
+		}	
+	
+img.auto
+	{
+		height : 6vh;	
+		width : 60px;
+	
+	}		
+	
+		
+
+div.seeker
+	{
+		float : left;
+		margin-left : 20px;
+		width : 82%;
+		margin-top : 1vh;
+		
+		
+	}	
+	
+
+
+	
+	
+
+
+	
+	

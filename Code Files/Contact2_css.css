@@ -1,0 +1,181 @@
+*
+  {
+		margin : 0px;
+		padding : 0px;
+		font-family : calibri;
+		color : white;
+	}
+	
+	body 
+	{
+		background-image: url('../Images/ContactB.jpg');
+    background-size: cover;
+		background-color : black;
+		color : white;
+	}
+	
+
+	
+div.navbar
+ {
+	height : 17vh;
+ }	
+ 
+nav
+ {
+	 
+	 height : 50px;
+	 background-color : black;
+	 position : fixed;
+	 width : 100%;
+
+ }
+ 
+
+	
+div.logo
+	{
+		float : left;
+		margin-left : 30px;
+		padding-top : 4px;
+		
+	}
+	
+div.logotext
+	{
+		float : left;
+		margin-left : 55px;
+		padding-top : 5px;
+		font-size : 35px;
+		font-family : Bradley Hand ITC;
+		font-weight : bold;
+		
+	}
+
+img.logo
+	{		
+		width : 40px;	
+		position : fixed;
+	}	
+	
+div.contact
+	{
+		float : right;
+		margin-right : 80px;
+    padding-top : 5px;
+	}
+
+img.contact
+	{
+		
+	  width : 40px;
+		position : fixed;
+	}	
+
+div.menus
+	{	
+		margin-left : 500px;
+		text-align : center;
+	  padding-top : 15px;
+		position : fixed;
+		color : white;
+	}
+	
+	
+
+nav ul li
+	{
+		display : inline-block;
+		list-style : none;
+		margin-left : 60px;
+		position : relative;
+		color : white;
+		font-family : Calibri;
+		font-size : 20px;
+		
+	}	
+
+nav ul li::after
+	{
+		content : '';
+		height : 3px;
+		width : 0;
+		background :white;
+		position : absolute;
+		left : 0;
+		bottom : -4px;
+		transition : 0.5s;
+		border-radius : 10px;
+	
+		
+	}
+
+nav ul li:hover:after
+	{
+		
+		width : 100%;
+		
+	}	
+	
+nav ul li :hover
+	{
+		
+		font-size : 21px;
+		color : violet;
+		
+	}	
+	
+nav ul li a
+	{
+		text-decoration : none;
+		color : white;
+	}		
+	
+	
+	/* other css */
+	
+header{
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: 7vh;
+		height : 11vh;
+		font-size: 20px;
+}
+header h1{
+    font-size: 40px;
+		margin-bottom : -20px;
+		font-family : courier new;
+		color : gold;
+		margin-top : -50px;
+}
+
+
+.form{
+    font-size: 22px;
+    display: flex;
+    position: absolute;
+    top: 18vh;
+    left: 0;
+    margin-left: 57%;
+    justify-content: center;
+    align-items: center;
+   }
+	 
+.form .right{
+    margin-top: 50px;
+		height : 70vh;
+}
+
+img.thankyou
+	{	
+	  width : 450px;
+	}	
+	
+div.thankyou
+	{
+		float : right;
+		margin-top : 75px;
+		margin-right : 200px;
+	}	

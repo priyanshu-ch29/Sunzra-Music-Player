@@ -1,0 +1,224 @@
+<html>
+<head>
+
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+		<title> Sunzra - English </title>
+		<link rel = "icon" href = "../Images/Tab_Logo_B.png">
+		<link rel = "stylesheet" href = "English_css.css">
+	  
+		
+
+</head>
+
+<body>
+
+	
+		<div class = "navbar">
+			
+			<nav>
+				<div class = "logo">
+					<a href = "Home.html" title = "Sunzra - Music"><img src = "../Images/Tab_Logo_B.png" class = "logo"></a>
+				</div>
+				<div class = "logotext"> SUN ZRA </div>
+				
+				<div class = "menus">
+					<ul>
+						<li> <a href = "Home.html"> Home </a></li>
+						<li> <a href = "Hindi.html"> Hindi </a></li>
+						<li> <a href = "English.html"> English </a></li>
+						<li> <a href = "About.html"> About </a></li>
+					</ul>
+				</div>
+				<div class = "contact">
+				<a href = "Contact1.html" title = "Contact Us"><img src = "../Images/Contact.png" class = "contact"></a>
+				</div>
+			</nav>
+			
+		</div>	
+	
+			
+			<div class = "banner">
+				<img src = "../Images/ENbanner.png">
+	    </div>
+			
+			
+		<div class = "newsongs">
+			
+			<div>
+			   <h1  class = "NS"> New Songs </h1>
+			</div>
+			
+			<div class = "lst">
+			 <img src = "../Images/Lost.jpg">
+			</div>
+			
+			
+			<div class = "peach">
+			  <img src = "../Images/Peaches.jpg">
+			</div>
+			
+			<div class = "stay">
+			  <img src = "../Images/Stay.jpg">
+			</div>
+			
+			<div class = "jal">
+			  <img src = "../Images/JalebiB.jpg">				
+			</div>
+			
+			<div class = "easy">
+			 <img src = "../Images/Easy.jpg">
+			</div>
+			
+			<div class = "shiv">
+			 <img src = "../Images/Shivers.jpg">
+			</div>
+			
+			
+	  </div>
+		
+		
+		
+		
+		
+		
+	<div class = "player">	
+	    <div class = "plbg">
+					<div class = "songimg">
+					     <img id = "track_image1" src = "" class = "songimg">
+					</div>
+				<div class = "control">	
+					<div >
+					   	<button class = "btn prev" id = "prev1" onclick = "previous_song()"><img class = "prev" src = "../Images/Prev.png"></button>
+						 
+					
+					
+					
+					   	<button class = "btn play" id = "play1" onclick = "justplay()"><img class = "play" src = "../Images/Play.png"></button>
+						 
+					
+					
+					
+					   	<button class = "btn fwd" id = "fwd1" onclick = "next_song()"><img class = "fwd" src = "../Images/Fwd.png"></button>
+						 
+					</div>
+					
+					<div class="volume">
+						<p id="volume_show1">90</p>
+						<div class = "volimg"> <img class = "sound" src = "../Images/Sound.png"></div>
+						<div class = "volbar"><input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume1"></div>
+               
+          </div>
+					
+					<div class="duration">
+							<div class = "autonxt"> <button class = "btnat auto" id = "auto1" onclick = "autoplay_switch()"><img class = "auto" src = "../Images/Auto.png"></div></button>
+             <div class = "seeker" ><input type="range" min="0" max="100" value="0" onchange="change_duration()" id = "seeker1" ></div> 
+						
+          </div>
+				 
+				</div> 
+					
+					<div class = "credits">
+							
+							<p class = "sng" id = "title1" >Song - ABC</p> <br> 
+							<p class = "singer" id = "singers1">Singer - 1 & 2  </p> 
+							
+					
+					</div>
+					
+					
+			</div>
+	</div>
+	
+	<div class = "hits">
+			
+			<div>
+			   <h1  class = "HTS"> Some Hits </h1>
+			</div>
+			
+			<div class = "PB">
+			  <img src = "../Images/Peaky.jpg">				
+			</div>
+			
+			<div class = "bel">
+			  <img src = "../Images/Believer.jpg">
+			</div>
+			
+			<div class = "run">
+			  <img src = "../Images/Runaway.jpg">
+			</div>
+			
+			<div class = "see">
+			 <img src = "../Images/Seeyou.jpg">
+			</div>
+			
+			<div class = "lovely">
+			 <img src = "../Images/Lovely.jpg">
+			</div>
+			
+			<div class = "shape">
+			 <img src = "../Images/Shape.jpg">
+			</div>
+			
+		
+					
+	  </div>
+		
+	
+
+		<div class = "player">	
+	    <div class = "plbghits">
+					<div class = "songimg">
+					     <img id = "track_image2" src = "" class = "songimg">
+					</div>
+				<div class = "control">	
+					<div >
+					   	<button class = "btn prev" id = "prev2" onclick = "previous_song2()"><img class = "prev" src = "../Images/Prev.png"></button>
+						 
+					
+					
+					
+					   	<button class = "btn play" id = "play2" onclick = "justplay2()"><img class = "play2" src = "../Images/Play.png"></button>
+						 
+					
+					
+					
+					   	<button class = "btn fwd" id = "fwd2" onclick = "next_song2()" ><img class = "fwd" src = "../Images/Fwd.png"></button>
+						 
+					</div>
+					
+					<div class="volume">
+					  <p id="volume_show2">90</p>
+						<div class = "volimg"> <img class = "sound" src = "../Images/Sound.png"></div>
+						<div class = "volbar"><input type="range" min="0" max="100" value="90" onchange="volume_change2()" id="volume2"></div>
+               
+          </div>
+					
+					<div class="duration">
+							<div class = "autonxt"> <button class = "btnat auto" id = "auto2" onclick = "autoplay_switch2()"><img class = "auto" src = "../Images/Auto.png"></div></button>
+             <div class = "seeker"><input type="range" min="0" max="100" value="0" onchange="change_duration2()" id="seeker2" ></div> 
+						
+          </div>
+				 
+				</div> 
+					
+					<div class = "credits">
+							
+							<p class = "sng" id = "title2" >Song - ABC p2</p> <br> 
+							<p class = "singer" id = "singers2">Singer - 1 & 2  </p> 
+						
+					
+					</div>
+					
+					
+			</div>
+	</div>
+	
+	<div class = "bkt"> <a href = "English.html" class = "btn">&#8593;</a> </div>
+		
+	
+	<script src = "English_P1.js"></script>
+  <script src = "English_P2.js"></script>
+	
+	
+</body>
+</html>	

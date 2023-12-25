@@ -1,0 +1,547 @@
+*
+  {
+		margin : 0px;
+		padding : 0px;
+			
+	}
+	
+	body 
+	{
+		background-color : black;
+		color : white;
+	}
+	
+	
+div.front
+	{	  
+		height : 100vh;
+		width  : 100%;
+		background-image : url(../Images/BG_1.png);
+		background-position : center;
+		background-size : cover;
+	  background-attachment : fixed;
+	}
+	
+
+	
+div.navbar
+ {
+	
+	 height : 17vh;
+ }	
+ 
+nav
+ {
+	 
+	 height : 50px;
+	 background-color : black;
+	 position : fixed;
+	 width : 100%;
+
+ }
+ 
+
+	
+div.logo
+	{
+		float : left;
+		margin-left : 30px;
+		padding-top : 4px;
+		
+	}
+	
+div.logotext
+	{
+		float : left;
+		margin-left : 55px;
+		padding-top : 5px;
+		font-size : 35px;
+		font-family : Bradley Hand ITC;
+		font-weight : bold;
+		
+	}
+
+img.logo
+	{		
+		width : 40px;	
+		position : fixed;
+	}	
+	
+div.contact
+	{
+		float : right;
+		margin-right : 80px;
+    padding-top : 5px;
+	}
+
+img.contact
+	{
+		
+	  width : 40px;
+		position : fixed;
+	}	
+
+div.menus
+	{	
+		margin-left : 500px;
+		text-align : center;
+	  padding-top : 15px;
+		position : fixed;
+		color : white;
+	}
+	
+	
+
+nav ul li
+	{
+		display : inline-block;
+		list-style : none;
+		margin-left : 60px;
+		position : relative;
+		color : white;
+		font-family : Calibri;
+		font-size : 20px;
+		
+	}	
+
+nav ul li::after
+	{
+		content : '';
+		height : 3px;
+		width : 0;
+		background :white;
+		position : absolute;
+		left : 0;
+		bottom : -4px;
+		transition : 0.5s;
+		border-radius : 10px;	
+	
+		
+	}
+
+nav ul li:hover:after
+	{
+		
+		width : 100%;
+		
+	}	
+	
+nav ul li :hover
+	{
+		
+		font-size : 21px;
+		color : violet;
+		
+	}	
+	
+nav ul li a
+	{
+		text-decoration : none;
+		color : white;
+	}		
+	
+div.content h1
+	{
+		font-family : gabriola;
+		font-size : 50px;
+		margin-top : 20px;	
+		color : LightYellow;
+		
+		
+	}
+	
+div.content p
+	{
+		font-family : Segoe Print;
+		font-size : 30px;	
+		color : gray;
+		
+		
+	}	
+	
+div.content
+	{
+		margin-left : 10%;
+		margin-top : 10%;
+		
+	}		
+
+	div.bkt .btn
+	{
+		
+		float : right;
+		background : linear-gradient( 45deg, orange, ivory ) ;
+		border-radius : 20px;
+		padding : 10px 20px;
+		text-decoration : none;
+		color : black;
+		font-weight : bold;
+		box-shadow : 3px 8px 22px rgba(94, 28, 68, 0.15 );
+		margin : 50px;
+			
+	}	
+
+div.content .btn a
+	{
+		text-decoration : none;
+		color : white;
+		font-size : 22px;
+		
+	}	
+	
+	
+div.content .btn
+	{
+		background : transparent;
+		border-radius : 20px;
+		border : none;
+		padding : 10px 20px;
+	  position : relative;
+		overflow : hidden;
+		background : linear-gradient( 45deg, red, yellow ) ;
+		box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.5),
+								5px 5px 15px rgba(0,0,0,0.3);
+		cursor : pointer;						
+	}	
+
+
+	
+	
+div.content .btn:hover 
+ {
+	background : linear-gradient( 45deg, red, blue ) ;
+ }
+
+
+div.news
+	{
+		height : 60vh;
+	  font-family : Calibri;
+		font-size : 20px;
+	}
+	
+h1.NS
+	{
+		font-family : corbel;
+		font-size : 40px;
+		font-weight : bold;
+		margin-left : 150px;
+		margin-top : 100px;
+		margin-bottom : 50px;
+	}
+	
+div.mn
+	{
+		float : left;
+		margin-left : 150px;
+		width : 295px;
+		 	
+	}
+
+div.mn img
+	{
+		float : left;
+		border-radius : 20px;
+		margin-left :5px;
+		border : 2px solid transparent;
+	}	
+
+div.btnHome
+ {
+	 float : left;
+	 margin-left : -60px; 
+	 margin-top : 27vh;
+ }
+
+div.mn button
+ {
+		border-radius : 10px;
+		text-decoration: none;
+		border : none;
+		cursor: pointer;
+		
+	  background-color : #9803fc;
+	  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+ }
+ 
+ div.aila button
+ {
+		border-radius : 10px;
+		text-decoration: none;
+		border : none;
+		cursor: pointer;
+	  background-color : #9803fc;
+	  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+ }
+ 
+ div.naach button
+ {
+		border-radius : 10px;
+		text-decoration: none;
+		border : none;
+		cursor: pointer;
+	  background-color : #9803fc;
+	  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+ }
+ 
+ div.isq button
+ {
+		border-radius : 10px;
+		text-decoration: none;
+		border : none;
+		cursor: pointer;
+	  background-color : #9803fc;
+	  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+ }
+ 
+ div.kn button
+ {
+		border-radius : 10px;
+		text-decoration: none;
+		border : none;
+		cursor: pointer;
+	  background-color : #9803fc;
+	  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+ }
+ 
+ div.kh button
+ {
+		border-radius : 10px;
+		text-decoration: none;
+		border : none;
+		cursor: pointer;
+	  background-color : #9803fc;
+	  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+ }
+ 
+ div.rtla button
+ {
+		border-radius : 10px;
+		text-decoration: none;
+		border : none;
+		cursor: pointer;
+	  background-color : #9803fc;
+	  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+ }
+ 
+ div.zindagi button
+ {
+		border-radius : 10px;
+		text-decoration: none;
+		border : none;
+		cursor: pointer;
+	  background-color : #9803fc;
+	  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),  inset -5px -5px 15px rgba(255,255,255,0.1),
+								5px 5px 15px rgba(0,0,0,0.3), -5px -5px 10px rgba(255,255,255,0.1);
+ }
+
+img.play 
+	{
+		height : 5vh;
+	} 
+img.pause 
+	{
+		height : 5vh;
+		width : 68%;
+		
+	 
+	}	
+
+	
+div.aila
+	{
+		float : left;
+		width : 295px;
+   
+	}
+	
+div.aila img
+	{
+		float : left;
+		border : 2px solid transparent;
+		border-radius : 20px;
+		margin-left :5px;
+	}	
+	
+	
+div.naach
+	{
+		float : left;
+		width : 295px;
+		
+   
+	}
+	
+div.naach img
+	{
+		float : left;
+		border-radius : 20px;
+		margin-left :5px;
+		border : 2px solid transparent;
+	}	
+	
+	
+div.isq
+	{
+		float : left;		
+		width : 260px;
+
+	}
+	
+div.isq img
+	{
+		float : left;
+		border-radius : 20px;
+		margin-left :5px;
+		border : 2px solid transparent;
+	}	
+	
+	
+	
+div.popul
+	{
+		height : 60vh;
+		font-family : Calibri;
+		font-size : 20px;
+  }
+	
+h1.PS
+	{
+		font-family : corbel;
+		font-size : 40px;
+		font-weight : bold;
+		margin-left : 150px;
+		margin-top : 100px;
+		margin-bottom : 50px;
+	}
+	
+div.kn
+	{
+		float : left;
+		margin-left : 150px;
+		width : 295px;
+		 	
+	}
+
+div.kn img
+	{
+		float : left;
+		border-radius : 20px;
+		margin-left :5px;
+		border : 2px solid transparent;
+	}		
+	
+div.kh
+	{
+		float : left;		
+		width : 295px;
+   
+	}
+	
+div.kh img
+	{
+		float : left;
+		border-radius : 20px;
+		margin-left :5px;
+		border : 2px solid transparent;
+	}	
+	
+	
+div.rtla
+	{
+		float : left;		
+		width : 295px;
+		
+   
+	}
+	
+div.rtla img
+	{
+		float : left;
+		border-radius : 20px;
+		margin-left :5px;
+		border : 2px solid transparent;
+	}	
+	
+	
+div.zindagi
+	{
+		float : left;		
+		width : 260px;
+   
+	}
+	
+div.zindagi img
+	{
+		float : left;
+		border-radius : 20px;
+		margin-left :5px;
+		border : 2px solid transparent;
+	}		
+	
+
+div.singers
+	{
+		height : 40vh;
+		font-family : Calibri;
+		font-size : 20px;
+  }
+	
+h1.sin
+	{
+		font-family : corbel;
+		font-size : 40px;
+		font-weight : bold;
+		margin-left : 150px;
+		margin-top : 100px;
+		margin-bottom : 50px;
+	}
+	
+div.aj
+	{
+		float : left;
+		margin-left : 150px;
+		width : 240px;		 	
+	}
+
+	
+	
+div.at
+	{
+		float : left;		
+		width : 240px;   
+	}
+	
+
+	
+	
+div.jubin
+	{
+		float : left;		
+		width : 240px;   
+	}
+	
+	
+	
+	
+div.bpraak
+	{
+		float : left;		
+		width : 240px;   
+	}
+	
+div.sonu
+	{
+		float : left;		
+		width : 240px;
+	}	
+	
+	
+	
